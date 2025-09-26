@@ -1,9 +1,10 @@
 # Instalación y configuración de WordPress en Ubuntu
 
-Para instalar y configurar wordpress en una máquina virtual Ubuntu debemos seguir los siguientes pasos:
+Para instalar y confi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   gurar wordpress en una máquina virtual Ubuntu debemos seguir los siguientes pasos:
 
 Para poder instalar PHP y Apache, debemos escribir en la terminal el siguiente comando.
 
+![captura1.png](../../../Mauro%20DAM/SGE/Capturas%20wordpress/captura1.png)                                                                     
 
 
 A continuación debemos crear el directorio de instalación y descargar el archivo de WordPress.org, para eso escribimos el siguiente comando.
