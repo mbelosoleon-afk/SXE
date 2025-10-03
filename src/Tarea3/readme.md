@@ -19,3 +19,10 @@ Para obtener el nombre usamos el siguiente comando que muestra todos los contene
 
 ![Docker5.png](Fotos/Docker5.png)
 
+Para el tercer apartado creamos un contenedor llamado dam_alp1
+
+![Docker6.png](Fotos/Docker6.png)
+
+Para acceder a ella primero debemos iniciarla y después introducir el siguiente comando
+
+![Docker7.png](Fotos/Docker7.png)
