@@ -26,3 +26,12 @@ Para el tercer apartado creamos un contenedor llamado dam_alp1
 Para acceder a ella primero debemos iniciarla y después introducir el siguiente comando
 
 ![Docker7.png](Fotos/Docker7.png)
+
+El cuarto apartado nos pregunta cual es la IP del contenedor, ejecutamos el siguiente comando
+
+![Docker8.png](Fotos/Docker8.png)
+
+Para saber si se puede usar ping google.com, debemos iniciar el contenedor y ejecutar el siguiente comando:
+
+![Docker9.png](Fotos/Docker9.png)
+
