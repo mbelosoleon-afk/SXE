@@ -15,39 +15,36 @@ Este contenedor adquiere autimaticamente un nombre aleatorio, y para comprobar s
 
 ![Docker4.png](Fotos/Docker4.png)
 
-Para obtener el nombre usamos el siguiente comando que muestra todos los contenedores:
-
-![Docker5.png](Fotos/Docker5.png)
-
-Para el tercer apartado creamos un contenedor llamado dam_alp1
+Para el apartado 3 debemos crear un contenedor llamado dam_alp1 y acceder a el. Para ello debemos crear un contenedor y usamos el comando infinity para que se ejecute continuamente.
 
 ![Docker6.png](Fotos/Docker6.png)
 
-Para acceder a ella primero debemos iniciarla y después introducir el siguiente comando
+Para acceder al contenedor usamos el siguiente comando. Si estamos dentro de el, aparecerá el símbolo "#". Para salir de este ejecutamos ctrl + P y ctrl + Q
 
 ![Docker7.png](Fotos/Docker7.png)
 
-El cuarto apartado nos pregunta cual es la IP del contenedor, ejecutamos el siguiente comando
+Para comprobar la ip ejecutamos el siguiente comando
 
 ![Docker8.png](Fotos/Docker8.png)
 
-Para saber si se puede usar ping google.com, debemos iniciar el contenedor y ejecutar el siguiente comando:
+Para usar el comando ping debemos ejecutar primero el contenedor y después usar el comando ping
 
 ![Docker9.png](Fotos/Docker9.png)
 
-Ahora creamos un segundo contenedor llamado dam_alp2
+En el quinto apartado nos pide crear otro contenedor y hacer ping entre estos. Para ello creamos el contenedor y buscamos su IP
 
 ![Docker10.png](Fotos/Docker10.png)
 
-Para usar el comando ping entre los dos contenedores, debemos ejecutar el primer contenedor y después usar el comando ping sobre el segundo
+Para ejecutar ping, debemos ejecutar el primer contenedor y dentro ejecutar ping con la ip del segundo contenedor
 
 ![Docker11.png](Fotos/Docker11.png)
 
-Al cerrar la terminal, el conenedor en ejecución termina.
+Para salir de la terminal ejecutamos exit. Con respecto al contenedor, debido al comando infinity, este se seguirá ejecutando.
 
-Para saber cuanta memoria se ocupó usamos el siguiente comando, y nos fijaremos en el apartado size:
+Para saber cuanta memoria en el disco duro se ocupó ejecutamos el siguiente comando
 
 ![Docker12.png](Fotos/Docker12.png)
 
-Por último para ver cuanta RAM ocupan los contenedores se debe usar el comando docker stats.
+Por último para ver la RAM que ocupan, usamos el comando docker stats
 
+![Docker13.png](Fotos/Docker13.png)
