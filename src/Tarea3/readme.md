@@ -44,3 +44,7 @@ Para usar el comando ping entre los dos contenedores, debemos ejecutar el primer
 ![Docker11.png](Fotos/Docker11.png)
 
 Al cerrar la terminal, el conenedor en ejecución termina.
+
+Para saber cuanta memoria se ocupó usamos el siguiente comando, y nos fijaremos en el apartado size:
+
+![Docker12.png](Fotos/Docker12.png)
