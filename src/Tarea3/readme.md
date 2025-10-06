@@ -35,3 +35,12 @@ Para saber si se puede usar ping google.com, debemos iniciar el contenedor y eje
 
 ![Docker9.png](Fotos/Docker9.png)
 
+Ahora creamos un segundo contenedor llamado dam_alp2
+
+![Docker10.png](Fotos/Docker10.png)
+
+Para usar el comando ping entre los dos contenedores, debemos ejecutar el primer contenedor y después usar el comando ping sobre el segundo
+
+![Docker11.png](Fotos/Docker11.png)
+
+Al cerrar la terminal, el conenedor en ejecución termina.
