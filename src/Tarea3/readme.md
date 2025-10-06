@@ -48,3 +48,6 @@ Al cerrar la terminal, el conenedor en ejecución termina.
 Para saber cuanta memoria se ocupó usamos el siguiente comando, y nos fijaremos en el apartado size:
 
 ![Docker12.png](Fotos/Docker12.png)
+
+Por último para ver cuanta RAM ocupan los contenedores se debe usar el comando docker stats.
+
